@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: red;
+
+}
+
+.img{
+    text-align: center;
+    margin-top: 10px;    
+}
+
+.img img{
+    cursor: pointer;
+    height: 500px;
+    width: 750px;
+    border: 30px solid black;
+}
+ h1 {
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    -webkit-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    margin: 1rem;
+}
+.holder h1:hover {
+    letter-spacing: .7rem;
+  }
+h2 {
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+p{
+    font-size: 18px;
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    margin: 1rem;
+}
+
